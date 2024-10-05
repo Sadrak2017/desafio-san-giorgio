@@ -4349,3 +4349,19 @@ Unconditional classes:
 
 
 
+2024-10-04 21:15:14.483 DEBUG api-san-giorgio reactor.util.Loggers - Using Slf4j logging framework
+2024-10-04 21:15:14.486 DEBUG api-san-giorgio reactor.core.publisher.Hooks - Enabling stacktrace debugging via onOperatorDebug
+2024-10-04 21:15:29.997 DEBUG api-san-giorgio reactor.util.Loggers - Using Slf4j logging framework
+2024-10-04 21:15:29.999 DEBUG api-san-giorgio reactor.core.publisher.Hooks - Enabling stacktrace debugging via onOperatorDebug
+2024-10-04 21:16:34.934 DEBUG api-san-giorgio reactor.util.Loggers - Using Slf4j logging framework
+2024-10-04 21:16:34.936 DEBUG api-san-giorgio reactor.core.publisher.Hooks - Enabling stacktrace debugging via onOperatorDebug
+2024-10-04 21:17:05.191 DEBUG api-san-giorgio reactor.util.Loggers - Using Slf4j logging framework
+2024-10-04 21:17:05.192 DEBUG api-san-giorgio reactor.core.publisher.Hooks - Enabling stacktrace debugging via onOperatorDebug
+2024-10-04 21:30:43.985 DEBUG api-san-giorgio reactor.util.Loggers - Using Slf4j logging framework
+2024-10-04 21:30:43.987 DEBUG api-san-giorgio reactor.core.publisher.Hooks - Enabling stacktrace debugging via onOperatorDebug
+2024-10-04 21:32:26.613 DEBUG api-san-giorgio reactor.util.Loggers - Using Slf4j logging framework
+2024-10-04 21:32:26.615 DEBUG api-san-giorgio reactor.core.publisher.Hooks - Enabling stacktrace debugging via onOperatorDebug
+2024-10-04 21:37:25.630 DEBUG api-san-giorgio reactor.util.Loggers - Using Slf4j logging framework
+2024-10-04 21:37:25.631 DEBUG api-san-giorgio reactor.core.publisher.Hooks - Enabling stacktrace debugging via onOperatorDebug
+2024-10-04 21:39:09.482 DEBUG api-san-giorgio reactor.util.Loggers - Using Slf4j logging framework
+2024-10-04 21:39:09.484 DEBUG api-san-giorgio reactor.core.publisher.Hooks - Enabling stacktrace debugging via onOperatorDebug

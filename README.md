@@ -40,6 +40,8 @@ ORM: Hibernate
 ![img_5.png](imgs/img_5.png)
 ![img_6.png](imgs/img_6.png)
 
+## 🛠️ Testes unitários
 
+![img.png](imgs/img_testes.png)
 ---
 ⌨️ por [Sadrak Silva](https://github.com/Sadrak2017)

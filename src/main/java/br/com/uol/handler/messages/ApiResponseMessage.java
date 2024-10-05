@@ -15,6 +15,7 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 @Getter
 @Setter
@@ -32,7 +33,7 @@ public class ApiResponseMessage implements Serializable {
   @Schema(description = "Status da requisição" , example = "OK")
   private HttpStatus status;
   @Schema(description = "Versão da API", example = "24.4.0.RC-SNAPSHOT")
-  private String version;
+  private String version = "24.4.0.RC-SNAPSHOT";
   @Schema(description = "Classe reposável pela reposta requisição", example = "ProcessarPagamentoService")
   private String className;
   @Schema(description = "Data e horário da requisição", example = "2024-05-05 15:30:00.000")
@@ -44,8 +45,7 @@ public class ApiResponseMessage implements Serializable {
   public ApiResponseMessage() {
     messages = new ArrayList<>();
     datetime = LocalDateTime.now();
-    version = ApplicationRest.getVersion();
-    globalMessage = globalMessage.concat(" - ").concat(version);
+    globalMessage = Objects.isNull(globalMessage) ? globalMessage : globalMessage.concat(" - ").concat(version);
   }
 
   public ApiResponseMessage(HttpStatus status, String globalMessage) {
