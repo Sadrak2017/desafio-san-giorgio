@@ -78,7 +78,7 @@ public class ProcessarPagamentoService {
 
       return ResponseEntity.status(HttpStatus.OK).body(responseMenssage(remessaPagamento));
     } catch (Exception e) {
-      return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(new ApiResponseRemessaPagamento(HttpStatus.INTERNAL_SERVER_ERROR, ProcessarPagamentoService.class.getName(), new Message("Falha ao gravar lote. " + (Objects.isNull(e.getMessage()) ? e.toString() : e.getMessage()), Message.MessageTypeEnum.E)));
+      return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(new ApiResponseRemessaPagamento(HttpStatus.INTERNAL_SERVER_ERROR, ProcessarPagamentoService.class.getName(), new Message("Falha ao processar pagamentos. " + (Objects.isNull(e.getMessage()) ? e.toString() : e.getMessage()), Message.MessageTypeEnum.E)));
     }
   }
 
